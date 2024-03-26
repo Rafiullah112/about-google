@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>google</title>
+    <style>
+      img {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./youtube.html">youtube</a></li>
+        <li><a href="https://google.com" target="_blank">google</a></li>
+        <li><a href="#table1">table</a></li>
+      </ul>
+    </nav>
+    <!-- text -->
+    <main>
+      <section>
+        <header>
+          <h1>About Google</h1>
+        </header>
+        <article>
+          <p>
+            google&lt; is the most popular search bar in the world. It is on the
+            top of the list. There are others but they are not that much
+            efficient to use.
+          </p>
+        </article>
+        <aside>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, sit
+            optio veniam alias, quia sed odit ex eius vel nihil expedita ratione
+            ipsam. Necessitatibus itaque magnam nobis enim dolores sint
+            explicabo commodi, deserunt sunt harum laudantium quibusdam nulla
+            nostrum excepturi saepe odio dolorum provident porro ad? Odit
+            reprehenderit praesentium sequi, dolor incidunt numquam repudiandae
+            explicabo eum maxime ipsam beatae commodi consequuntur consectetur
+            eveniet quae iure natus, quia voluptates velit nisi non ab. Laborum
+            beatae a aliquid provident numquam! Amet placeat neque ea sapiente
+            minima nulla, excepturi eligendi blanditiis? Iste, veniam eius
+            voluptas vero nostrum unde neque nam explicabo tempore libero.
+          </p>
+        </aside>
+      </section>
+    </main>
+    <!-- media -->
+    <section>
+      <figure>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/800px-Googleplex_HQ_%28cropped%29.jpg"
+          alt=" google building"
+        />
+        <br />
+        <figurecap>google building</figurecap>
+      </figure>
+      <br />
+      <video src="" width="" height="" controls>video not suppoted</video>
+      <br />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/oOi3oJmfz4o?si=A3IGPsjH_VrMgIlL"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <audio src="" controls></audio>
+    </section>
+    <!-- table -->
+    <section id="table1">
+      <table>
+        <thead>
+          <tr>
+            <th>about google</th>
+            <th>google 1</th>
+            <th>google 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>quality</th>
+            <td>fair enough</td>
+            <td>good</td>
+          </tr>
+          <tr>
+            <th>cons</th>
+            <td>a lot</td>
+            <td>less</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <br />
+    <!-- form -->
+    <section>
+      <form action="/goole.html" method="get">
+        <section>
+          <label for="name">first name</label>
+          <input
+            id="name"
+            type="text"
+            name="first name"
+            minlength=""
+            maxlength=""
+            placeholder="first name"
+            pattern="[a-z]{5,10}"
+            required
+          />
+        </section>
+        <br />
+        <section>
+          <label for="name">last name</label>
+          <input
+            id="name"
+            type="text"
+            name="last name name"
+            minlenght="5"
+            maxlength="10"
+            placeholder="last name"
+          />
+        </section>
+        <br />
+        <section>
+          <label for="number">favrt number</label>
+          <input
+            step="2"
+            type="number"
+            id="number"
+            name="number"
+            min="5"
+            max="10"
+            placeholder="write number"
+          />
+        </section>
+        <section>
+          <label for="rating">rating:</label>
+          <span>low</span>
+          <input type="range" min="3" max="10" step="0.5" />
+          <span>high</span>
+        </section>
+        <section>
+          <span>what problems did you faced:</span>
+          <br />
+          <label for="option 1">bug</label>
+          <input id="option 1" type="checkbox" name="problem" />
+          <label for="option 2">lag</label>
+          <input type="checkbox" id="option 2" name="problem" />
+          <label for="option 3">slow</label>
+          <input type="checkbox" id="option 3" name="problem" />
+        </section>
+        <section>
+          <span>do you agree with our terms:</span>
+          <br />
+          <label for="yes">yes</label>
+          <input id="yes" type="radio" value="yes" name="option" />
+          <label for="no">no</label>
+          <input id="no" type="radio" value="no" name="option" />
+        </section>
+        <section>
+          <label for="area">choose your favrt spot:</label>
+          <select id="area">
+            <option value="forest" name="area">forest</option>
+            <option value="sea" name="area">sea</option>
+            <option value="mountain" name="area">mountain</option>
+          </select>
+        </section>
+        <section>
+          <label for="area">choose your favrt area:</label>
+          <input id="area" type="text" list="areas" name="area" />
+          <datalist id="areas">
+            <option value="forest"></option>
+            <option value="desert"></option>
+          </datalist>
+        </section>
+        <section>
+          <label for="text">explain in detail:</label>
+          <br />
+          <textarea
+            placeholder="explain"
+            rows="3"
+            cols="30"
+            required
+            name="issue"
+          ></textarea>
+        </section>
+        <section>
+          <label for="submit"></label>
+          <input type="submit" value="send" />
+        </section>
+      </form>
+      <nav>
+        <ol>
+          <li><a href="#">to the top</a></li>
+        </ol>
+      </nav>
+    </section>
+    <footer>contact me at rafivsprogramming@gmail.com</footer>
+  </body>
+</html>
